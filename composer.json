@@ -1,0 +1,22 @@
+{
+  "name": "indigerd/yii2-rest-data-provider",
+  "description": "Yii2 REST Data Provider.",
+  "keywords": ["yii2", "rest", "api", "data provider", "active record", "active query"],
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Stepanenko",
+      "email": "alex.stepanenko@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": ">=4,<6",
+    "psr/log": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "indigerd\\restdataprovider\\": "src/restdataprovider"
+    }
+  }
+}
